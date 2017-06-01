@@ -1,6 +1,6 @@
 <?php
 
-
+    
 class Response
 {
     public $data;
@@ -12,7 +12,18 @@ class Response
     }
 
     function toJson() {
-         die( json_encode($this->data) );
+
+        $decoded = json_decode($this->data, true);
+
+        $filename = str_replace(" ", "", $decoded["name"])."_".$decoded["id"].".json";
+
+        $fp = fopen('json/'.$filename, 'w');
+        $text = json_encode($this->data, JSON_PRETTY_PRINT);
+        $text = wordwrap($text, 80, "\n", false);
+        fwrite($fp, $text);
+        fclose($fp);
+
+        die( json_encode($this->data) );
     }
 
     function array_to_xml($array, &$xml_user_info) {
