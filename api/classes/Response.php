@@ -13,9 +13,7 @@ class Response
 
     function toJson() {
 
-        $decoded = json_decode($this->data, true);
-
-        $filename = str_replace(" ", "", $decoded["name"])."_".$decoded["id"].".json";
+        $filename = time().".json";
 
         $fp = fopen('json/'.$filename, 'w');
         $text = json_encode($this->data, JSON_PRETTY_PRINT);

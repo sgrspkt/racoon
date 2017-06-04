@@ -133,17 +133,21 @@ section .rac-container .rac-info span:nth-child(2)
     clear: both;
     margin-top: -15px;
     float: right;
+    display: flex;
     outline: medium none;
     padding-left: 15px;
 }
 section .rac-container .rac-info span:nth-child(2) select 
 {
-    padding: 4px;
+    padding: 0px 10px;
     outline-style: none;
     font-size: 13px;
     margin-top: 3px;
+    height: 22px;
     border-radius: 3px;
-    border:none;
+    margin-left: 5px;
+    border: none;
+    line-height: 9px;
     display: block;
     color: #d35400;
     cursor: pointer;
@@ -153,10 +157,6 @@ section .rac-container .rac-info span:nth-child(2) select:first-child {
     margin-bottom:5px;
 }
 section .rac-container .rac-info span:nth-child(2) #nameSort
-{
-    display: none;
-}
-section .rac-container .rac-info span:nth-child(2) #ratingSort
 {
     display: none;
 }
@@ -316,8 +316,8 @@ osition: relative;*/
 }
 .detail-container .rac-detail  img
 {
-    height: 600px;
-    width: 900px;
+    max-height: 600px;
+    max-width: 900px;
     box-sizing: border-box;
     margin-left:300px;
     border-top: 5px solid #2c3e50;

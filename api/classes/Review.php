@@ -203,6 +203,7 @@ class Review extends Db
         $put = file_get_contents('php://input');
         mb_parse_str( $put,  $putData);
 
+
         $review = new Review();
         $review->setName( $putData['update_name']);
         $review->setKey( $putData['update_userkey']);

@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Red tailed Hawk Buteo jamaicensis",
+        "imageUrl": "Red-tailed_Hawk_Buteo_jamaicensis_Full_Body_1880px.jpg",
+        "_order": " \tPhaethontiformes",
+        "binomial_name": "Phaethon lepturus",
+        "species": " \tP. lepturus",
+        "genus": "Tauraco",
+        "family": "Phaethontidae",
+        "id": "1",
+        "reviews": null,
+        "total": null,
+        "totalReview": null,
+        "averageRating": null
+    },
+    {
+        "name": "California Condor",
+        "imageUrl": "California_Condor.jpg",
+        "_order": " \tMusophagiformes",
+        "binomial_name": "Tauraco erythrolophus",
+        "species": " \tP. lepturus",
+        "genus": "Phaethon",
+        "family": "Musophagidae",
+        "id": "5",
+        "reviews": null,
+        "total": null,
+        "totalReview": null,
+        "averageRating": null
+    },
+    {
+        "name": "Brushland Tinamou",
+        "imageUrl": "745px-Brushland_Tinamou.jpg",
+        "_order": " \tSphenisciformes",
+        "binomial_name": "Pygoscelis papua",
+        "species": "B. bubo",
+        "genus": " \tBubo",
+        "family": "Strigidae",
+        "id": "2",
+        "reviews": null,
+        "total": null,
+        "totalReview": null,
+        "averageRating": null
+    },
+    {
+        "name": "Athene noctua",
+        "imageUrl": "Athene_noctua_(cropped).jpg",
+        "_order": "Strigiformes",
+        "binomial_name": "Bubo bubo",
+        "species": "T. erythrolophus",
+        "genus": "Pygoscelis",
+        "family": "Phaethontidae",
+        "id": "4",
+        "reviews": null,
+        "total": null,
+        "totalReview": null,
+        "averageRating": null
+    },
+    {
+        "name": "Andean Tinamou RWD",
+        "imageUrl": "Andean_Tinamou_RWD.jpg",
+        "_order": " \tPhaethontiformes",
+        "binomial_name": "Tauraco erythrolophus",
+        "species": "P. papua",
+        "genus": "Tauraco",
+        "family": "Spheniscidae",
+        "id": "3",
+        "reviews": null,
+        "total": null,
+        "totalReview": null,
+        "averageRating": null
+    }
+]

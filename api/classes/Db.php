@@ -39,9 +39,9 @@ class Db
 
         $query = "update " . $this->table ." set ";
 
-        $query .= "reviewer_name = ".$data['reviewer_name'].", rating = ".$data['rating']
-            .", review = ".$data['review'];
-        $query .= " where viewer_key = ".$data['viewer_key'];
+        $query .= "reviewer_name = '".$data['reviewer_name']."', rating = ".$data['rating']
+            .", review = '".$data['review'];
+        $query .= "' where viewer_key = ".$data['viewer_key'];
 
         $db = $this->getDB();
         $result = $db->query( $query );
